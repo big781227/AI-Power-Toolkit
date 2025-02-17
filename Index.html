@@ -8,57 +8,58 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            margin: 20px;
         }
         .container {
-            max-width: 600px;
-            margin: 50px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
         }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #555;
+        .pdf-viewer {
+            width: 100%;
+            height: 500px;
+            border: none;
         }
         .download-btn {
             display: inline-block;
-            background: #007bff;
+            background-color: #007bff;
             color: white;
             padding: 10px 20px;
             text-decoration: none;
+            font-size: 18px;
             border-radius: 5px;
             margin-top: 20px;
         }
-        .ad-container {
-            margin-top: 20px;
+        .download-btn:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>Download Your Free AI Tools Guide</h1>
-        <p>Discover 15 powerful AI tools that can boost your productivity, creativity, and efficiency. Get this free guide now!</p>
-        <a>Download Now</a>
+        <h1>AI Tools Guide - Free eBook</h1>
+        <p>Discover the top AI tools that can boost your productivity and creativity.</p>
         
-        <div class="ad-container">
-            <!-- Adsterra Banner Ad -->
-            <script type="text/javascript">
-                atOptions = {
-                    'key' : '61a410ac839c241236c13286b3fddf02',
-                    'format' : 'iframe',
-                    'height' : 60,
-                    'width' : 468,
-                    'params' : {}
-                };
-            </script>
-            <script type="text/javascript" src="//unbelievableplayed.com/61a410ac839c241236c13286b3fddf02/invoke.js"></script>
-        </div>
+        <!-- Embed the PDF -->
+        <iframe class="pdf-viewer" src="https://drive.google.com/file/d/1MPlEK2tqoyqjPH8jcxV3Hldq-9rIQxuL/preview"></iframe>
+
+        <!-- Download Button -->
+        <a href="https://drive.google.com/uc?export=download&id=1MPlEK2tqoyqjPH8jcxV3Hldq-9rIQxuL" class="download-btn" download>
+            Download Now
+        </a>
     </div>
+
+    <!-- Adsterra Banner Ad -->
+    <script type="text/javascript">
+        atOptions = {
+            'key' : '61a410ac839c241236c13286b3fddf02',
+            'format' : 'iframe',
+            'height' : 60,
+            'width' : 468,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//unbelievableplayed.com/61a410ac839c241236c13286b3fddf02/invoke.js"></script>
+
 </body>
 </html>
